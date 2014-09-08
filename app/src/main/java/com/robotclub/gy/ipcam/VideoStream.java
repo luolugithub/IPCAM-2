@@ -1,7 +1,4 @@
 package com.robotclub.gy.ipcam;
-
-import org.opencv.highgui.VideoCapture;
-
 package com.robotclub.gy.ipcam.Login;
 
 
@@ -29,7 +26,7 @@ public class VideoStream extends Activity {
     public BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
         public void onManagerConnected(int status) {
-            swith (status) {
+            switch (status) {
                 case LoaderCallbackInterface.SUCCESS:
                     breakk;
                 default:
